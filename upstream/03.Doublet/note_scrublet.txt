@@ -1,0 +1,8 @@
+# Visualize
+_histogram.png: Look for bimodal distribution (2 peaks) => Identify thresholds
+_UMAP_pred.png: Visualize Doublets
+_UMAP_score.png: Doublet probability
+
+# R object
+_annotated_seurat.rds: Complete datasets with all cells (bad - good)
+_singlet_seurat.rds: Clean dataset (only Singlet)
