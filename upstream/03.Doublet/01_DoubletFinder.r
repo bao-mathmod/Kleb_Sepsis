@@ -19,10 +19,10 @@ set.seed(1234)
 # 0) Paths
 # -------------------------
 sample_id   <- "PBMC_data"
-seu_path    <- "/mnt/18T/chibao/pbmc/data_3/SoupX_outputs_MAD/PBMC_data/PBMC_data_SoupX_seurat.rds"
-counts_path <- "/mnt/18T/chibao/pbmc/data_3/SoupX_outputs_MAD/PBMC_data/PBMC_data_SoupX_corrected_counts.rds"
+seu_path    <- "/mnt/18T/chibao/pbmc/data/SoupX_outputs/PBMC_data/PBMC_data_SoupX_seurat.rds"
+counts_path <- "/mnt/18T/chibao/pbmc/data/SoupX_outputs/PBMC_data/PBMC_data_SoupX_corrected_counts.rds"
 
-out_dir <- file.path("/mnt/18T/chibao/pbmc/data_3/DoubletFinder_outputs", sample_id)
+out_dir <- file.path("/mnt/18T/chibao/pbmc/data/DoubletFinder_outputs", sample_id)
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 # -------------------------
